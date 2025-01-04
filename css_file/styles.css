@@ -1,0 +1,40 @@
+header {
+  background-color: #ffccff;
+  height: 400px;
+}
+#bg-img {
+  text-align: center;
+  font-size: 20px;
+  height: 400px;
+  padding: 50px;
+  /* background: url('../images/family/family-car-1.jpg'); */
+  background-image: url('../images/classic-car/classic-car-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+body img {
+  width: 300px;
+  height: 200px;
+}
+#liner {
+  width: 1100px;
+  height: 600px;
+  border: 2px solid tomato;
+  margin: auto;
+  /* background: linear-gradient(to top right, green, red, yellow); */
+
+  /* background: linear-gradient(150deg, green, red, yellow); */
+
+  /* background: linear-gradient(green 40%, red, yellow); */
+  /* background: repeating-linear-gradient(green 20%, red 30%, yellow 40%); */
+  /* background: radial-gradient(circle, green, red, yellow, aqua); */
+  background: radial-gradient(
+    closest-side at 90% 20%,
+    green,
+    red,
+    yellow,
+    aqua
+  );
+}
