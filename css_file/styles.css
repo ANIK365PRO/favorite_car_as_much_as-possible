@@ -1,6 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   background-color: #ffccff;
-  height: 400px;
+  height: 450px;
 }
 #bg-img {
   text-align: center;
@@ -37,4 +43,37 @@ body img {
     yellow,
     aqua
   );
+}
+
+/* index.html2 */
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background-color: #cce8ff; */
+  /* margin: 10;
+  padding: 10px; */
+}
+
+header li {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: magenta;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px #000;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sports-car {
+  background-image: url('../images/sports-car/sports-car-3.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
