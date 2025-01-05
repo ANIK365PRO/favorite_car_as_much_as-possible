@@ -71,9 +71,29 @@ header a {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#sports-car {
-  background-image: url('../images/sports-car/sports-car-3.jpg');
+#sports_car {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+.about {
+  background-image: url('../images/sports-car/sports-car-3.jpg');
+}
+.services {
+  background-image: url('../images/family/family2.jpg');
+}
+.contact {
+  background-image: url('../images/family/family-car-1.jpg');
+}
+.services_details {
+  background-color: tan;
+  padding: 50px;
+
+  text-align: center;
+}
+.services_details details {
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 10px;
+  box-shadow: 3px 5px 8px #000;
 }
